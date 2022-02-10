@@ -13,6 +13,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+
+
+
+
+    }
+
+    static void mod4Day1() {
         Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Enter number");
@@ -26,8 +33,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println(Arrays.toString(e.getStackTrace()));
         }
-
-
     }
 
     static void readFileToList() throws IOException {
